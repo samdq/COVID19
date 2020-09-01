@@ -73,6 +73,7 @@ python run.py
 Remember to replace the placeholders like STATE, CITY, PINCODE, and your-username with actual values. This README provides a basic structure, and you can customize it based on your project's specifics.
 
 
+## Directory Structure:
 
 
 
