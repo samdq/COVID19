@@ -25,3 +25,13 @@ This repository contains a REST API package that consolidates and provides real-
 - Example: http://localhost:5000/oxygen?state=STATE&city=CITY&pincode=PINCODE
 
 
+### Medicine
+
+- Endpoint: /medicine
+- Method: GET
+- Parameters:
+- state (required): State name
+- city (required): City name
+- pincode (required): Pincode
+- Example: http://localhost:5000/medicine?state=STATE&city=CITY&pincode=PINCODE
+
