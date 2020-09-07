@@ -40,4 +40,8 @@ This repository contains a REST API package that consolidates and provides real-
 ### Clone the repository:
 
 - git clone https://github.com/your-username/covid-tracker.git
+- Navigate to the project directory:
+```
+cd covid-tracker
+```
 
