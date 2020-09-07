@@ -36,3 +36,8 @@ This repository contains a REST API package that consolidates and provides real-
 - Example: http://localhost:5000/medicine?state=STATE&city=CITY&pincode=PINCODE
 
 ## Getting Started
+
+### Clone the repository:
+
+- git clone https://github.com/your-username/covid-tracker.git
+
