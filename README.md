@@ -35,3 +35,4 @@ This repository contains a REST API package that consolidates and provides real-
 - pincode (required): Pincode
 - Example: http://localhost:5000/medicine?state=STATE&city=CITY&pincode=PINCODE
 
+## Getting Started
