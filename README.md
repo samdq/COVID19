@@ -58,5 +58,7 @@ pip install -r requirements.txt
 python run.py
 ```
 
+- Access the APIs using the provided endpoints.
+
 
 
