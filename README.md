@@ -65,4 +65,7 @@ python run.py
 
 - Flask 2.0.1
 
+## Note
+
+- This application uses in-memory data storage for demonstration purposes. In a production environment, you should replace it with a proper database.
 
