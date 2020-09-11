@@ -61,4 +61,8 @@ python run.py
 - Access the APIs using the provided endpoints.
 
 
+## Dependencies
+
+- Flask 2.0.1
+
 
