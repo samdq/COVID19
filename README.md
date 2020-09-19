@@ -83,6 +83,7 @@ covid_tracker/
 │   ├── routes.py
 │   └── services.py
 ├── config.py
-
+├── requirements.txt
+└── run.py
 
 
