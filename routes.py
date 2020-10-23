@@ -8,3 +8,13 @@ from app.services import (
     get_medicine,
     update_feedback
 )
+
+@app.route('/hospital-beds', methods=['GET'])
+def hospital_beds():
+    state = request.args.get('state')
+    city = request.args.get('city')
+    pincode = request.args.get('pincode')
+
+    data = get_hospital_beds(state, city, pincode)
+
+    return jsonify(data)
