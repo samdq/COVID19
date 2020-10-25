@@ -29,3 +29,12 @@ def oxygen():
 
     return jsonify(data)
 
+@app.route('/medicine', methods=['GET'])
+def medicine():
+    state = request.args.get('state')
+    city = request.args.get('city')
+    pincode = request.args.get('pincode')
+
+    data = get_medicine(state, city, pincode)
+
+    return jsonify(data)
