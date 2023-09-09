@@ -7,7 +7,9 @@ hospital_beds_data = []
 oxygen_data = []
 medicine_data = []
 
-
+def get_hospital_beds(state, city, pincode):
+    # Logic to fetch hospital bed data
+    pass
 def get_oxygen(state, city, pincode):
     # Logic to fetch oxygen data
     pass
