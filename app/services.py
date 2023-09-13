@@ -14,7 +14,9 @@ def get_oxygen(state, city, pincode):
     # Logic to fetch oxygen data
     pass
 
-
+def get_medicine(state, city, pincode):
+    # Logic to fetch medicine data
+    pass
 
 def update_feedback(state, city, pincode, feedback):
     # Logic to update feedback

@@ -39,13 +39,3 @@ def medicine():
 
     return jsonify(data)
 
-@app.route('/feedback', methods=['POST'])
-def feedback():
-    state = request.json.get('state')
-    city = request.json.get('city')
-    pincode = request.json.get('pincode')
-    feedback = request.json.get('feedback')
-
-    update_feedback(state, city, pincode, feedback)
-
-    return jsonify({'message': 'Feedback updated successfully'})
