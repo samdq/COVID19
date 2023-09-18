@@ -19,15 +19,7 @@ def hospital_beds():
 
     return jsonify(data)
 
-@app.route('/oxygen', methods=['GET'])
-def oxygen():
-    state = request.args.get('state')
-    city = request.args.get('city')
-    pincode = request.args.get('pincode')
 
-    data = get_oxygen(state, city, pincode)
-
-    return jsonify(data)
 
 @app.route('/medicine', methods=['GET'])
 def medicine():
