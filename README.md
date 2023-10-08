@@ -6,13 +6,7 @@ This repository contains a REST API package that consolidates and provides real-
 
 ### Hospital Beds
 
-- Endpoint: /hospital-beds
-- Method: GET
-- Parameters:
-- state (required): State name
-- city (required): City name
-- pincode (required): Pincode
-- Example: http://localhost:5000/hospital-beds?state=STATE&city=CITY&pincode=PINCODE
+
 
 ### Oxygen
 
