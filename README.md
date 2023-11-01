@@ -52,13 +52,6 @@ cd covid-tracker
 pip install -r requirements.txt
 ```
 
-- Run the application:
-
-```
-python run.py
-```
-
-- Access the APIs using the provided endpoints.
 
 
 ## Dependencies
