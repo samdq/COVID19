@@ -52,6 +52,13 @@ cd covid-tracker
 pip install -r requirements.txt
 ```
 
+- Run the application:
+
+```
+python run.py
+```
+
+- Access the APIs using the provided endpoints.
 
 
 ## Dependencies
@@ -59,9 +66,6 @@ pip install -r requirements.txt
 - Flask 2.0.1
 
 ## Note
-
-- This application uses in-memory data storage for demonstration purposes. In a production environment, you should replace it with a proper database.
-- Ensure proper error handling, authentication, and security measures in a production environment.
 
 Remember to replace the placeholders like STATE, CITY, PINCODE, and your-username with actual values. This README provides a basic structure, and you can customize it based on your project's specifics.
 
