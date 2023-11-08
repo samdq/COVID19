@@ -75,5 +75,15 @@ Remember to replace the placeholders like STATE, CITY, PINCODE, and your-usernam
 
 ## Directory Structure:
 
+covid_tracker/
+│
+├── app/
+│   ├── __init__.py
+│   ├── models.py
+│   ├── routes.py
+│   └── services.py
+├── config.py
+├── requirements.txt
+└── run.py
 
 
